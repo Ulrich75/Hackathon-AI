@@ -6,10 +6,8 @@
 
 1. Culne le repo
 
-<pre class="python">
-git clone https://github.com/Stability-AI/generative-models.git
-cd generative-models
-</pre>
+       git clone https://github.com/Stability-AI/generative-models.git
+       cd generative-models
 
 
 2. Mise en place du virtualenv
@@ -20,25 +18,23 @@ NOTA: Cet essai est soumis à l'essai dans le cadre de python3.10. Pour d'autres
 
 PyTorch 2.0
 
-<pre class="python">
-# install required packages from pypi
-python3 -m venv .pt2
-source .pt2/bin/activate
-pip3 install -r requirements/pt2.txt
-</pre>
+        
+        # install required packages from pypi
+        python3 -m venv .pt2
+        source .pt2/bin/activate
+        pip3 install -r requirements/pt2.txt
+
 
 
 3. Install sgm
 
-<pre class="python">
-pip3 install .
-</pre>
+        pip3 install .
+
 
 4. Install sdatapour la formation
+        
+        pip3 install -e git+https://github.com/Stability-AI/datapipelines.git@main#egg=sdata
 
-<pre class="python">
-pip3 install -e git+https://github.com/Stability-AI/datapipelines.git@main#egg=sdata
-</pre>
 
 ![01](https://github.com/Ulrich75/Hackathon-AI/assets/127865109/4c9b4353-8259-4e31-a795-037e739f0728)
 
