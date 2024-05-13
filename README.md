@@ -6,7 +6,11 @@
 
 1. Culne le repo
 
+<pre class="javascript">
+function maFonction(argument) {
 git clone https://github.com/Stability-AI/generative-models.git
+  }
+</pre>
 cd generative-models
 
 2. Mise en place du virtualenv
